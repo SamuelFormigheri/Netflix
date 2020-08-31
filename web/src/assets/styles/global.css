@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  :root {
+    --primary: #26A20A;
+    --black: #000000;
+    --blackAlmostDark: #111111;
+    --blackLighter: #9E9E9E;
+    --grayLight: #F5F5F5;
+    --grayMedium: #e5e5e5; 
+    --white: #FFFFFF;
+    --frontEnd: #6bff6b;
+    --backEnd: #00C86F;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+  } 
+  
+  #root{
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #444;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #111;
+  }
