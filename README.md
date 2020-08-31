@@ -20,12 +20,34 @@ FormFlix
 
 | [Samuel Formigheri](https://github.com/SamuelFormigheri)
 
-## Techs
+## 🚀 Technologies
 
-- [x] React.js
+This project was developed with the following technologies:
+
+- [x] Typescript
+
+- [x] Node.js
+
+- [x] ReactJS
+
 - [x] Styled Components
+
+- [x] SQLite
+
+- [x] Knex
+
 
 ## Usage
 
-1. Run `npm install` or `yarn install`.<br />
-2. Run `yarn run dev` and access `http://localhost:3000`.<br />
+ ### API
+  #$ cd server
+  <br />#$ yarn # or npm install
+  <br />#$ yarn knex:migrate # or npm run knex:migrate
+
+ ### Start the API
+  #$ yarn start # or npm start
+
+ ### Web App
+  #$ cd web
+  <br />#$ yarn # or npm install
+  <br />#$ yarn start # or npm start
